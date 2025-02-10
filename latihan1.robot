@@ -1,6 +1,7 @@
 *** Settings ***
-Library    Builtin
-Library    venv/lib/python3.12/site-packages/robot/libraries/DateTime.py
+Library     DateTime  
+Variables    var.py
+
 
 *** Tasks ***
 Mulai
@@ -8,3 +9,13 @@ Mulai
     Log    Tahap 1
     ${date}    Get Current Date
     Log    ${date}
+    Log    ${nama}
+    Log    ${alamat}
+
+Skenario2
+    Log    ${nama}
+    Log    ${alamat}
+
+
+*** Variables ***
+${nama}    Sentot

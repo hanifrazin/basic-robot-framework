@@ -1,54 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.2.2 (Python 3.12.8 on darwin)" generated="2025-02-10T15:23:06.933492" rpa="true" schemaversion="5">
+<robot generator="Robot 7.2.2 (Python 3.12.8 on darwin)" generated="2025-02-10T16:32:29.555131" rpa="true" schemaversion="5">
 <suite id="s1" name="Latihan1" source="/Users/user/Desktop/basic-robot-framework/latihan1.robot">
-<test id="s1-t1" name="Mulai" line="6">
+<test id="s1-t1" name="Mulai" line="7">
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-02-10T15:23:06.964825" level="INFO">Mulai Automationnya</msg>
+<msg time="2025-02-10T16:32:29.572050" level="INFO">Mulai Automationnya</msg>
 <arg>Mulai Automationnya</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-02-10T15:23:06.964739" elapsed="0.000121"/>
+<status status="PASS" start="2025-02-10T16:32:29.571968" elapsed="0.000120"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-02-10T15:23:06.965001" level="INFO">Tahap 1</msg>
+<msg time="2025-02-10T16:32:29.572233" level="INFO">Tahap 1</msg>
 <arg>Tahap 1</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-02-10T15:23:06.964947" elapsed="0.000077"/>
+<status status="PASS" start="2025-02-10T16:32:29.572179" elapsed="0.000078"/>
 </kw>
 <kw name="Get Current Date" owner="DateTime">
-<msg time="2025-02-10T15:23:06.965174" level="INFO">${date} = 2025-02-10 15:23:06.965</msg>
+<msg time="2025-02-10T16:32:29.572414" level="INFO">${date} = 2025-02-10 16:32:29.572</msg>
 <var>${date}</var>
 <doc>Returns current local or UTC time with an optional increment.</doc>
-<status status="PASS" start="2025-02-10T15:23:06.965089" elapsed="0.000097"/>
+<status status="PASS" start="2025-02-10T16:32:29.572323" elapsed="0.000103"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-02-10T15:23:06.965298" level="INFO">2025-02-10 15:23:06.965</msg>
+<msg time="2025-02-10T16:32:29.572539" level="INFO">2025-02-10 16:32:29.572</msg>
 <arg>${date}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-02-10T15:23:06.965242" elapsed="0.000151"/>
+<status status="PASS" start="2025-02-10T16:32:29.572483" elapsed="0.000075"/>
 </kw>
-<status status="PASS" start="2025-02-10T15:23:06.964357" elapsed="0.001098"/>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-02-10T16:32:29.572663" level="INFO">Sentot</msg>
+<arg>${nama}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-02-10T16:32:29.572613" elapsed="0.000066"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-02-10T16:32:29.572778" level="INFO">Jalan-jalan Bang</msg>
+<arg>${alamat}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-02-10T16:32:29.572732" elapsed="0.000063"/>
+</kw>
+<status status="PASS" start="2025-02-10T16:32:29.571591" elapsed="0.001259"/>
 </test>
-<status status="PASS" start="2025-02-10T15:23:06.934440" elapsed="0.031206"/>
+<test id="s1-t2" name="Skenario2" line="15">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-02-10T16:32:29.573106" level="INFO">Sentot</msg>
+<arg>${nama}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-02-10T16:32:29.573056" elapsed="0.000067"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-02-10T16:32:29.573216" level="INFO">Jalan-jalan Bang</msg>
+<arg>${alamat}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-02-10T16:32:29.573171" elapsed="0.000061"/>
+</kw>
+<status status="PASS" start="2025-02-10T16:32:29.572941" elapsed="0.000341"/>
+</test>
+<status status="PASS" start="2025-02-10T16:32:29.555881" elapsed="0.017574"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0" skip="0">All Tasks</stat>
+<stat pass="2" fail="0" skip="0">All Tasks</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat name="Latihan1" id="s1" pass="1" fail="0" skip="0">Latihan1</stat>
+<stat name="Latihan1" id="s1" pass="2" fail="0" skip="0">Latihan1</stat>
 </suite>
 </statistics>
 <errors>
-<msg time="2025-02-10T15:23:06.963333" level="ERROR">Error in file '/Users/user/Desktop/basic-robot-framework/latihan1.robot' on line 2: Importing library 'Builtin' failed: ModuleNotFoundError: No module named 'Builtin'
-Traceback (most recent call last):
-  None
-PYTHONPATH:
-  /Users/user/Desktop/basic-robot-framework/venv/bin
-  /Users/user/.pyenv/versions/3.12.8/lib/python312.zip
-  /Users/user/.pyenv/versions/3.12.8/lib/python3.12
-  /Users/user/.pyenv/versions/3.12.8/lib/python3.12/lib-dynload
-  /Users/user/Desktop/basic-robot-framework/venv/lib/python3.12/site-packages</msg>
 </errors>
 </robot>

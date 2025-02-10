@@ -1,0 +1,1 @@
+alamat = 'Jalan-jalan Bang'
