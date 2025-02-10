@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.12.8 on darwin)" generated="2025-02-10T15:23:06.933492" rpa="true" schemaversion="5">
+<suite id="s1" name="Latihan1" source="/Users/user/Desktop/basic-robot-framework/latihan1.robot">
+<test id="s1-t1" name="Mulai" line="6">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-02-10T15:23:06.964825" level="INFO">Mulai Automationnya</msg>
+<arg>Mulai Automationnya</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-02-10T15:23:06.964739" elapsed="0.000121"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-02-10T15:23:06.965001" level="INFO">Tahap 1</msg>
+<arg>Tahap 1</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-02-10T15:23:06.964947" elapsed="0.000077"/>
+</kw>
+<kw name="Get Current Date" owner="DateTime">
+<msg time="2025-02-10T15:23:06.965174" level="INFO">${date} = 2025-02-10 15:23:06.965</msg>
+<var>${date}</var>
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<status status="PASS" start="2025-02-10T15:23:06.965089" elapsed="0.000097"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-02-10T15:23:06.965298" level="INFO">2025-02-10 15:23:06.965</msg>
+<arg>${date}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-02-10T15:23:06.965242" elapsed="0.000151"/>
+</kw>
+<status status="PASS" start="2025-02-10T15:23:06.964357" elapsed="0.001098"/>
+</test>
+<status status="PASS" start="2025-02-10T15:23:06.934440" elapsed="0.031206"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Latihan1" id="s1" pass="1" fail="0" skip="0">Latihan1</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-02-10T15:23:06.963333" level="ERROR">Error in file '/Users/user/Desktop/basic-robot-framework/latihan1.robot' on line 2: Importing library 'Builtin' failed: ModuleNotFoundError: No module named 'Builtin'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Users/user/Desktop/basic-robot-framework/venv/bin
+  /Users/user/.pyenv/versions/3.12.8/lib/python312.zip
+  /Users/user/.pyenv/versions/3.12.8/lib/python3.12
+  /Users/user/.pyenv/versions/3.12.8/lib/python3.12/lib-dynload
+  /Users/user/Desktop/basic-robot-framework/venv/lib/python3.12/site-packages</msg>
+</errors>
+</robot>
