@@ -1,80 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.2.2 (Python 3.12.8 on darwin)" generated="2025-02-10T19:31:50.657692" rpa="true" schemaversion="5">
+<robot generator="Robot 7.2.2 (Python 3.12.8 on darwin)" generated="2025-02-10T21:29:41.444338" rpa="true" schemaversion="5">
 <suite id="s1" name="Latihan1" source="/Users/user/Desktop/basic-robot-framework/latihan1.robot">
-<test id="s1-t1" name="Skenario Masak Nasi" line="20">
+<test id="s1-t1" name="Skenario Masak Nasi" line="21">
 <kw name="Siapkan Beras" owner="keywords">
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Beli Beras di warung</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-02-10T19:31:50.676718" elapsed="0.000094"/>
+<status status="PASS" start="2025-02-10T21:29:41.464352" elapsed="0.000087"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Siapkan beras di wadah</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-02-10T19:31:50.676885" elapsed="0.000134"/>
+<status status="PASS" start="2025-02-10T21:29:41.464512" elapsed="0.000062"/>
 </kw>
-<status status="PASS" start="2025-02-10T19:31:50.676443" elapsed="0.000611"/>
+<status status="PASS" start="2025-02-10T21:29:41.464083" elapsed="0.000526"/>
 </kw>
 <kw name="Cuci Beras" owner="keywords">
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Cuci beras dengan air bersih 3x</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-02-10T19:31:50.677245" elapsed="0.000057"/>
+<status status="PASS" start="2025-02-10T21:29:41.464800" elapsed="0.000054"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Masukkan air bersih dengan takaran 1 ruas jari</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-02-10T19:31:50.677344" elapsed="0.000046"/>
+<status status="PASS" start="2025-02-10T21:29:41.464898" elapsed="0.000049"/>
 </kw>
-<status status="PASS" start="2025-02-10T19:31:50.677139" elapsed="0.000277"/>
+<status status="PASS" start="2025-02-10T21:29:41.464693" elapsed="0.000280"/>
 </kw>
 <kw name="Siapkan Magicom" owner="keywords">
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Colok magiccom ke listrik</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-02-10T19:31:50.677570" elapsed="0.000048"/>
+<status status="PASS" start="2025-02-10T21:29:41.465133" elapsed="0.000051"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Masukkan beras ke dalam magiccom</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-02-10T19:31:50.677656" elapsed="0.000043"/>
+<status status="PASS" start="2025-02-10T21:29:41.465226" elapsed="0.000045"/>
 </kw>
-<status status="PASS" start="2025-02-10T19:31:50.677481" elapsed="0.000240"/>
+<status status="PASS" start="2025-02-10T21:29:41.465042" elapsed="0.000252"/>
 </kw>
 <kw name="Pencet Cook" owner="keywords">
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Pencet tombol cook</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-02-10T19:31:50.677862" elapsed="0.000046"/>
+<status status="PASS" start="2025-02-10T21:29:41.465443" elapsed="0.000050"/>
 </kw>
-<status status="PASS" start="2025-02-10T19:31:50.677778" elapsed="0.000153"/>
+<status status="PASS" start="2025-02-10T21:29:41.465354" elapsed="0.000162"/>
 </kw>
 <kw name="Tunggu sampai warn" owner="keywords">
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Tunggu status jadi warn</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-02-10T19:31:50.678073" elapsed="0.000045"/>
+<status status="PASS" start="2025-02-10T21:29:41.465669" elapsed="0.000048"/>
 </kw>
-<status status="PASS" start="2025-02-10T19:31:50.677988" elapsed="0.000153"/>
+<status status="PASS" start="2025-02-10T21:29:41.465576" elapsed="0.000165"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-02-10T19:31:50.678248" level="INFO">Sentot</msg>
+<msg time="2025-02-10T21:29:41.465851" level="INFO">Sentot</msg>
 <arg>${nama}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-02-10T19:31:50.678187" elapsed="0.000082"/>
+<status status="PASS" start="2025-02-10T21:29:41.465792" elapsed="0.000081"/>
 </kw>
-<status status="PASS" start="2025-02-10T19:31:50.676096" elapsed="0.002230"/>
+<status status="PASS" start="2025-02-10T21:29:41.463693" elapsed="0.002237"/>
 </test>
-<status status="PASS" start="2025-02-10T19:31:50.658714" elapsed="0.019794"/>
+<test id="s1-t2" name="Skenario Beli Timun" line="29">
+<kw name="Given Saya punya timun 5 buah." owner="timun" source_name="Saya punya timun ${buah} buah.">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-02-10T21:29:41.466367" level="INFO">Saya punya timun 5 buah.</msg>
+<arg>Saya punya timun ${buah} buah.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-02-10T21:29:41.466303" elapsed="0.000084"/>
+</kw>
+<kw name="Set Suite Variable" owner="BuiltIn">
+<msg time="2025-02-10T21:29:41.466514" level="INFO">${buah} = 5</msg>
+<arg>${buah}</arg>
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<status status="PASS" start="2025-02-10T21:29:41.466437" elapsed="0.000095"/>
+</kw>
+<status status="PASS" start="2025-02-10T21:29:41.466197" elapsed="0.000359"/>
+</kw>
+<kw name="When Dalam perjalanan saya bertemu kancil" owner="timun">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-02-10T21:29:41.466762" level="INFO">Dalam perjalanan saya bertemu kancil</msg>
+<arg>Dalam perjalanan saya bertemu kancil</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-02-10T21:29:41.466721" elapsed="0.000061"/>
+</kw>
+<status status="PASS" start="2025-02-10T21:29:41.466631" elapsed="0.000174"/>
+</kw>
+<kw name="And timun saya dimakan 2." owner="timun" source_name="timun saya dimakan ${makan}.">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-02-10T21:29:41.467044" level="INFO">timun saya dimakan 2.</msg>
+<arg>timun saya dimakan ${makan}.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-02-10T21:29:41.466990" elapsed="0.000073"/>
+</kw>
+<kw name="Set Suite Variable" owner="BuiltIn">
+<msg time="2025-02-10T21:29:41.467180" level="INFO">${makan} = 2</msg>
+<arg>${makan}</arg>
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<status status="PASS" start="2025-02-10T21:29:41.467112" elapsed="0.000085"/>
+</kw>
+<status status="PASS" start="2025-02-10T21:29:41.466888" elapsed="0.000331"/>
+</kw>
+<kw name="Then Timun saya sekarang tinggal 3." owner="timun" source_name="Timun saya sekarang tinggal ${sisa}.">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-02-10T21:29:41.467444" level="INFO">Timun saya sekarang tinggal 3.</msg>
+<arg>Timun saya sekarang tinggal ${sisa}.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-02-10T21:29:41.467393" elapsed="0.000069"/>
+</kw>
+<status status="PASS" start="2025-02-10T21:29:41.467296" elapsed="0.000189"/>
+</kw>
+<status status="PASS" start="2025-02-10T21:29:41.466022" elapsed="0.001512"/>
+</test>
+<status status="PASS" start="2025-02-10T21:29:41.445302" elapsed="0.022406"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0" skip="0">All Tasks</stat>
+<stat pass="2" fail="0" skip="0">All Tasks</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat name="Latihan1" id="s1" pass="1" fail="0" skip="0">Latihan1</stat>
+<stat name="Latihan1" id="s1" pass="2" fail="0" skip="0">Latihan1</stat>
 </suite>
 </statistics>
 <errors>

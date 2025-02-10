@@ -1,6 +1,7 @@
 *** Settings ***
 Library     DateTime  
 Resource    keywords.resource
+Resource    timun.resource
 Resource    variable.robot
 Variables    var.py
 
@@ -25,5 +26,10 @@ Skenario Masak Nasi
     Tunggu sampai warn
     Log    ${nama}
 
+Skenario Beli Timun
+    Given Saya punya timun 5 buah.
+    When Dalam perjalanan saya bertemu kancil
+    And timun saya dimakan 2.
+    Then Timun saya sekarang tinggal 3.
 # *** Variables ***
 # ${nama}    Sentot
