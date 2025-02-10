@@ -1,70 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.2.2 (Python 3.12.8 on darwin)" generated="2025-02-10T16:32:29.555131" rpa="true" schemaversion="5">
+<robot generator="Robot 7.2.2 (Python 3.12.8 on darwin)" generated="2025-02-10T19:13:24.363668" rpa="true" schemaversion="5">
 <suite id="s1" name="Latihan1" source="/Users/user/Desktop/basic-robot-framework/latihan1.robot">
-<test id="s1-t1" name="Mulai" line="7">
-<kw name="Log" owner="BuiltIn">
-<msg time="2025-02-10T16:32:29.572050" level="INFO">Mulai Automationnya</msg>
-<arg>Mulai Automationnya</arg>
-<doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-02-10T16:32:29.571968" elapsed="0.000120"/>
+<test id="s1-t1" name="Skenario Masak Nasi" line="19">
+<kw name="Siapkan Beras">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Beli Beras di warung</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-02-10T19:13:24.383874" elapsed="0.000160"/>
 </kw>
-<kw name="Log" owner="BuiltIn">
-<msg time="2025-02-10T16:32:29.572233" level="INFO">Tahap 1</msg>
-<arg>Tahap 1</arg>
-<doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-02-10T16:32:29.572179" elapsed="0.000078"/>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Siapkan beras di wadah</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-02-10T19:13:24.384145" elapsed="0.000090"/>
 </kw>
-<kw name="Get Current Date" owner="DateTime">
-<msg time="2025-02-10T16:32:29.572414" level="INFO">${date} = 2025-02-10 16:32:29.572</msg>
-<var>${date}</var>
-<doc>Returns current local or UTC time with an optional increment.</doc>
-<status status="PASS" start="2025-02-10T16:32:29.572323" elapsed="0.000103"/>
+<status status="PASS" start="2025-02-10T19:13:24.383443" elapsed="0.000838"/>
 </kw>
-<kw name="Log" owner="BuiltIn">
-<msg time="2025-02-10T16:32:29.572539" level="INFO">2025-02-10 16:32:29.572</msg>
-<arg>${date}</arg>
-<doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-02-10T16:32:29.572483" elapsed="0.000075"/>
+<kw name="Cuci Beras">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Cuci beras dengan air bersih 3x</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-02-10T19:13:24.384513" elapsed="0.000059"/>
 </kw>
-<kw name="Log" owner="BuiltIn">
-<msg time="2025-02-10T16:32:29.572663" level="INFO">Sentot</msg>
-<arg>${nama}</arg>
-<doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-02-10T16:32:29.572613" elapsed="0.000066"/>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Masukkan air bersih dengan takaran 1 ruas jari</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-02-10T19:13:24.384615" elapsed="0.000048"/>
 </kw>
-<kw name="Log" owner="BuiltIn">
-<msg time="2025-02-10T16:32:29.572778" level="INFO">Jalan-jalan Bang</msg>
-<arg>${alamat}</arg>
-<doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-02-10T16:32:29.572732" elapsed="0.000063"/>
+<status status="PASS" start="2025-02-10T19:13:24.384384" elapsed="0.000306"/>
 </kw>
-<status status="PASS" start="2025-02-10T16:32:29.571591" elapsed="0.001259"/>
+<kw name="Siapkan Magicom">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Colok magiccom ke listrik</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-02-10T19:13:24.384845" elapsed="0.000050"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Masukkan beras ke dalam magiccom</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-02-10T19:13:24.384933" elapsed="0.000046"/>
+</kw>
+<status status="PASS" start="2025-02-10T19:13:24.384755" elapsed="0.000248"/>
+</kw>
+<kw name="Pencet Cook">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Pencet tombol cook</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-02-10T19:13:24.385144" elapsed="0.000048"/>
+</kw>
+<status status="PASS" start="2025-02-10T19:13:24.385058" elapsed="0.000159"/>
+</kw>
+<kw name="Tunggu sampai warn">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Tunggu status jadi warn</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-02-10T19:13:24.385355" elapsed="0.000048"/>
+</kw>
+<status status="PASS" start="2025-02-10T19:13:24.385274" elapsed="0.000152"/>
+</kw>
+<status status="PASS" start="2025-02-10T19:13:24.383011" elapsed="0.002474"/>
 </test>
-<test id="s1-t2" name="Skenario2" line="15">
-<kw name="Log" owner="BuiltIn">
-<msg time="2025-02-10T16:32:29.573106" level="INFO">Sentot</msg>
-<arg>${nama}</arg>
-<doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-02-10T16:32:29.573056" elapsed="0.000067"/>
-</kw>
-<kw name="Log" owner="BuiltIn">
-<msg time="2025-02-10T16:32:29.573216" level="INFO">Jalan-jalan Bang</msg>
-<arg>${alamat}</arg>
-<doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-02-10T16:32:29.573171" elapsed="0.000061"/>
-</kw>
-<status status="PASS" start="2025-02-10T16:32:29.572941" elapsed="0.000341"/>
-</test>
-<status status="PASS" start="2025-02-10T16:32:29.555881" elapsed="0.017574"/>
+<status status="PASS" start="2025-02-10T19:13:24.364480" elapsed="0.021218"/>
 </suite>
 <statistics>
 <total>
-<stat pass="2" fail="0" skip="0">All Tasks</stat>
+<stat pass="1" fail="0" skip="0">All Tasks</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat name="Latihan1" id="s1" pass="2" fail="0" skip="0">Latihan1</stat>
+<stat name="Latihan1" id="s1" pass="1" fail="0" skip="0">Latihan1</stat>
 </suite>
 </statistics>
 <errors>
