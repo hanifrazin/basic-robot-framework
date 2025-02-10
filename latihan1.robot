@@ -1,7 +1,8 @@
 *** Settings ***
 Library     DateTime  
-Variables    var.py
 Resource    keywords.resource
+Resource    variable.robot
+Variables    var.py
 
 *** Tasks ***
 # Mulai
@@ -22,6 +23,7 @@ Skenario Masak Nasi
     Siapkan Magicom
     Pencet Cook
     Tunggu sampai warn
+    Log    ${nama}
 
-*** Variables ***
-${nama}    Sentot
+# *** Variables ***
+# ${nama}    Sentot
