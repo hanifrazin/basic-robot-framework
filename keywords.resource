@@ -12,3 +12,6 @@ Pencet Cook
     Log To Console    Pencet tombol cook
 Tunggu sampai warn
     Log To Console    Tunggu status jadi warn
+
+buat data list baru
+    @{list2}    Create List    10    20    30
