@@ -5,3 +5,4 @@ ${nama}    Sentot
 @{warga}    Jono    Anwar    Aziz
 @{huruf}    A    B    C    D
 @{angka}    1    2    3    4
+${hasil}    0
